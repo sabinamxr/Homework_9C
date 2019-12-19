@@ -1,1 +1,26 @@
 
+public class Brad {
+public static void main(String[]args){
+  char ch='*';
+  char pr='%';
+  char o='o';
+  char xm='X';
+  char om='O';
+  char xn='x';
+  char d='#';
+  System.out.format("%n%40c",ch);
+  System.out.format("%n%39c%c%c",o,om,o);
+  System.out.format("%n%38c%c%c%c%c",xn,xm,xm,xm,xn);
+  System.out.format("%n%37c%c%c%c%c%c%c",o,om,om,om,om,om,o);
+  System.out.format("%n%36c%c%c%c%c%c%c%c%c",xn,xm,xm,xm,xm,xm,xm,xm,xn);
+  System.out.format("%n%35c%c%c%c%c%c%c%c%c%c%c",o,om,om,om,om,om,om,om,om,om,o);
+  System.out.format("%n%34c%c%c%c%c%c%c%c%c%c%c%c%c",xn,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xn);
+  System.out.format("%n%33c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",o,om,om,om,om,om,om,om,om,om,om,om,om,om,o);
+  System.out.format("%n%32c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",xn,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xm,xn);
+  System.out.format("%n%31c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",o,om,om,om,om,om,om,om,om,om,om,om,om,om,om,om,om,om,o);
+  System.out.format("%n%39c%c%c",d,d,d);
+  System.out.format("%n%39c%c%c",d,d,d );
+  System.out.println("Merry Christmas!");
+}
+
+}
